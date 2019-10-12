@@ -1,4 +1,4 @@
-package com.pingan.city.msg.web;
+package com.pingan.city.msg.assemble;
 
 import org.apache.servicecomb.springboot.starter.provider.EnableServiceComb;
 import org.springframework.boot.SpringApplication;

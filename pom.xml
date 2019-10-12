@@ -23,6 +23,7 @@
         <module>base-msg-center-dao</module>
         <module>base-msg-center-service</module>
         <module>base-msg-center-web</module>
+        <module>base-msg-center-assemble</module>
     </modules>
 
     <properties>
@@ -71,6 +72,6 @@
         </dependencies>
 
     </dependencyManagement>
-    
+
 
 </project>

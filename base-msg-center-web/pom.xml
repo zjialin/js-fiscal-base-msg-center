@@ -8,8 +8,19 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>base-msg-center-web</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.pingan.city</groupId>
+            <artifactId>base-msg-center-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
 
 
 </project>

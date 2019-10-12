@@ -8,8 +8,39 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>base-msg-center-service</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.pingan.city</groupId>
+            <artifactId>base-msg-center-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.pingan.city</groupId>
+            <artifactId>base-msg-center-dao</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.servicecomb</groupId>
+            <artifactId>spring-boot-starter-transport</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.huawei.paas.cse</groupId>
+            <artifactId>cse-solution-service-engine</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12:1.7.28</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.hibernate</groupId>
+                    <artifactId>hibernate-validator:6.1.0.Alpha6</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+
+    </dependencies>
 
 </project>

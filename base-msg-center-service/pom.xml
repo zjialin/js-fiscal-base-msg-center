@@ -21,7 +21,6 @@
             <artifactId>base-msg-center-dao</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-
         <dependency>
             <groupId>org.apache.servicecomb</groupId>
             <artifactId>spring-boot-starter-provider</artifactId>

@@ -23,6 +23,7 @@ public class Swagger2Config {
         return new Docket(DocumentationType.SWAGGER_2)
                 .enable(true)
                 .apiInfo(apiInfo())
+                .enableUrlTemplating(true)
                 .select()
                 .apis(RequestHandlerSelectors.basePackage(SWAGGER_PACKAGE))
                 .paths(PathSelectors.any())

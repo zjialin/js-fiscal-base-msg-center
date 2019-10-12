@@ -9,11 +9,12 @@ import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication(exclude = DispatcherServletAutoConfiguration.class)
 @EnableServiceComb
-@MapperScan(basePackages = {"com.provider.dao.mapper"})
+@MapperScan(basePackages = {"com.pingan.city.msg.dao.mapper"})
 @EnableTransactionManagement
 public class ApplicationMain {
 
     public static void main(String[] args) {
+        System.setProperty("string.profiles.active","dev");
         SpringApplication.run(ApplicationMain.class, args);
     }
 }

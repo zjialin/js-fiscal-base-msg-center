@@ -14,7 +14,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 public class ApplicationMain {
 
     public static void main(String[] args) {
-        System.setProperty("string.profiles.active","dev");
+        System.setProperty("spring.profiles.active","dev");
         SpringApplication.run(ApplicationMain.class, args);
     }
 }
